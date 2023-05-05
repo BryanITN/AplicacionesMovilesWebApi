@@ -6,6 +6,7 @@ namespace AplicacionesMoviles.WebApi.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]
+    [Produces("application/json")]
     public class ReportesController : ControllerBase
     {
         private readonly IServicioReporte _servicioReporte;

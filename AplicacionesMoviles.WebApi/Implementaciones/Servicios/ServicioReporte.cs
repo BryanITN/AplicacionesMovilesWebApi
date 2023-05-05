@@ -11,6 +11,8 @@ namespace AplicacionesMoviles.WebApi.Implementaciones.Servicios
         private readonly IRepositorioBase<Prueba> _repositorio;
         private readonly IMapper _mapper;
 
+
+
         public ServicioReporte(IRepositorioBase<Prueba> repositorio, IMapper mapper)
         {
             _repositorio = repositorio;
